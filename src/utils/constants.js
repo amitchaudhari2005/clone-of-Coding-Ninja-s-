@@ -1,10 +1,10 @@
-// Format date to DD/MM/YYYY
-export const formatDate = (dateStr) => {
-  const date = new Date(dateStr);
-  return date.toLocaleDateString('en-IN');
-};
+// Central place for static data
+export const APP_NAME = 'Coding Ninjas Clone';
+export const API_BASE_URL = 'https://api.example.com';
 
-// Capitalize first letter
-export const capitalize = (str) => {
-  return str.charAt(0).toUpperCase() + str.slice(1);
-};
+export const NAV_LINKS = [
+  { name: 'Home', path: '/' },
+  { name: 'Courses', path: '/courses' },
+  { name: 'Dashboard', path: '/dashboard' },
+  { name: 'About', path: '/about' }
+];
