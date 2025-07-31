@@ -1,0 +1,9 @@
+@import url('./assets/styles/global.css');
+@import url('./assets/styles/variables.css');
+@import url('./assets/styles/animations.css');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f7f7;
+}
