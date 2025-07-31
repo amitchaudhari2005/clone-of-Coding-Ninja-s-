@@ -1,0 +1,41 @@
+.dashboardContainer {
+  padding: 2rem;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7faff;
+  min-height: 100vh;
+}
+
+.dashboardContainer h1 {
+  font-size: 2rem;
+  color: #222;
+}
+
+.dashboardContainer p {
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1.2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #0077cc;
+}
